@@ -19,7 +19,6 @@ window.SWING_MENU = {
     {
       id: "cocktails",
       title: "Cocktails",
-      note: "50 ml",
       groups: [
         {
           title: "Spritz & Bitter",
