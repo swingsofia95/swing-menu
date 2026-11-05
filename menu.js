@@ -108,6 +108,23 @@ window.SWING_MENU = {
     },
 
     {
+      id: "vodka",
+      title: "Vodka",
+      note: "40 ml",
+      groups: [
+        {
+          items: [
+            { name: "Absolut", price: 3.5 },
+            { name: "Finlandia", price: 3.5 },
+            { name: "Ostoya", price: 5 },
+            { name: "Reyka", price: 5 },
+            { name: "Grey Goose", price: 6 }
+          ]
+        }
+      ]
+    },
+
+    {
       id: "gin",
       title: "Gin",
       note: "40 ml",
@@ -120,23 +137,6 @@ window.SWING_MENU = {
             { name: "Roku", price: 5 },
             { name: "Malfy", price: 6 },
             { name: "Monkey 47", price: 8.5 }
-          ]
-        }
-      ]
-    },
-
-    {
-      id: "vodka",
-      title: "Vodka",
-      note: "40 ml",
-      groups: [
-        {
-          items: [
-            { name: "Absolut", price: 3.5 },
-            { name: "Finlandia", price: 3.5 },
-            { name: "Ostoya", price: 5 },
-            { name: "Reyka", price: 5 },
-            { name: "Grey Goose", price: 6 }
           ]
         }
       ]
@@ -160,30 +160,17 @@ window.SWING_MENU = {
     },
 
     {
-      id: "rakia",
-      title: "Rakia",
-      note: "40 ml",
+      id: "wine",
+      title: "Wine",
+      note: "Ask the bar what's open tonight",
       groups: [
         {
           items: [
-            { name: "Burgas 63 Barrel", price: 5, desc: "Grape. Barrel-aged. Ice if you insist." }
-          ]
-        }
-      ]
-    },
-
-    {
-      id: "tequila",
-      title: "Tequila & Mezcal",
-      note: "40 ml",
-      groups: [
-        {
-          items: [
-            { name: "Olmeca Blanco", price: 5 },
-            { name: "Olmeca Gold", price: 5 },
-            { name: "Altos Plata", price: 6 },
-            { name: "Altos Reposado", price: 6 },
-            { name: "San Cosme Mezcal", price: 9 }
+            { name: "Glass · white, red or rosé", price: 4 },
+            { name: "Bottle 0.375", price: 15 },
+            { name: "Bottle 0.75", price: "25 – 35" },
+            { name: "Prosecco 0.375", price: 15 },
+            { name: "Prosecco 0.75", price: 28 }
           ]
         }
       ]
@@ -227,17 +214,30 @@ window.SWING_MENU = {
     },
 
     {
-      id: "wine",
-      title: "Wine",
-      note: "Ask the bar what's open tonight",
+      id: "tequila",
+      title: "Tequila & Mezcal",
+      note: "40 ml",
       groups: [
         {
           items: [
-            { name: "Glass · white, red or rosé", price: 4 },
-            { name: "Bottle 0.375", price: 15 },
-            { name: "Bottle 0.75", price: "25 – 35" },
-            { name: "Prosecco 0.375", price: 15 },
-            { name: "Prosecco 0.75", price: 28 }
+            { name: "Olmeca Blanco", price: 5 },
+            { name: "Olmeca Gold", price: 5 },
+            { name: "Altos Plata", price: 6 },
+            { name: "Altos Reposado", price: 6 },
+            { name: "San Cosme Mezcal", price: 9 }
+          ]
+        }
+      ]
+    },
+
+    {
+      id: "rakia",
+      title: "Rakia",
+      note: "40 ml",
+      groups: [
+        {
+          items: [
+            { name: "Burgas 63 Barrel", price: 5, desc: "Grape. Barrel-aged. Ice if you insist." }
           ]
         }
       ]
