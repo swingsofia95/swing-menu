@@ -46,8 +46,7 @@ window.SWING_MENU = {
             { name: "Cuba Libre", price: 8, desc: "Bumbu rum, Coca-Cola, fresh lime." },
             { name: "Paloma", price: 9, desc: "Olmeca, Thomas Henry pink grapefruit, lime." },
             { name: "Dark 'n' Stormy", price: 9, desc: "Sailor Jerry, ginger beer, fresh lime." },
-            { name: "Skinny Bitch", price: 6, desc: "Vodka, soda, fresh lemon. Nothing else." },
-            { name: "Driver", price: 6, desc: "Vodka, orange juice. The screwdriver, in a hurry." }
+            { name: "Skinny Bitch", price: 6, desc: "Vodka, soda, fresh lemon. Nothing else." }
           ]
         }
       ]
