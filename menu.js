@@ -55,8 +55,8 @@ window.SWING_MENU = {
     {
       id: "whiskey",
       title: "Whiskey",
-      kicker: "The Back Bar",
-      note: "40 ml · as a shot: half price",
+      kicker: "The Back Bar · 40 ml pours",
+      note: "As a shot: half price",
       groups: [
         {
           title: "Irish",
@@ -108,7 +108,6 @@ window.SWING_MENU = {
     {
       id: "vodka",
       title: "Vodka",
-      note: "40 ml",
       groups: [
         {
           items: [
@@ -125,7 +124,6 @@ window.SWING_MENU = {
     {
       id: "gin",
       title: "Gin",
-      note: "40 ml",
       groups: [
         {
           items: [
@@ -143,7 +141,6 @@ window.SWING_MENU = {
     {
       id: "rum",
       title: "Rum",
-      note: "40 ml",
       groups: [
         {
           items: [
@@ -177,7 +174,6 @@ window.SWING_MENU = {
     {
       id: "aperitivo",
       title: "Aperitivo",
-      note: "40 ml",
       groups: [
         {
           items: [
@@ -194,7 +190,6 @@ window.SWING_MENU = {
     {
       id: "liqueurs",
       title: "Liqueurs",
-      note: "40 ml",
       groups: [
         {
           items: [
@@ -214,7 +209,6 @@ window.SWING_MENU = {
     {
       id: "tequila",
       title: "Tequila & Mezcal",
-      note: "40 ml",
       groups: [
         {
           items: [
@@ -231,7 +225,6 @@ window.SWING_MENU = {
     {
       id: "rakia",
       title: "Rakia",
-      note: "40 ml",
       groups: [
         {
           items: [
@@ -261,7 +254,7 @@ window.SWING_MENU = {
     {
       id: "shots",
       title: "Shots",
-      note: "20 ml · anything from the back bar as a shot: half its 40 ml price",
+      note: "20 ml · anything from the back bar as a shot: half price",
       groups: [
         {
           items: [
@@ -280,7 +273,6 @@ window.SWING_MENU = {
     {
       id: "nolow",
       title: "No & Low",
-      note: "40 ml",
       groups: [
         {
           items: [
