@@ -11,7 +11,7 @@
 window.SWING_MENU = {
   venue: "SWING",
   currency: "EUR",
-  updated: "2026-11-05",
+  updated: "2026-11-17",
   tagline: "The oldest standing jazz & rock stage in town",
   taglineSub: "(still here, folks)",
 
@@ -72,15 +72,13 @@ window.SWING_MENU = {
           title: "Scotch",
           items: [
             { name: "Cutty Sark", price: 3.5 },
-            { name: "Ballantine's Finest", price: 3.5 },
             { name: "Chivas Regal 12", price: 5 },
             { name: "The Deacon", price: 6 },
             { name: "Glen Scotia", price: 6 },
             { name: "The Glenlivet 12", price: 7 },
             { name: "Dimple", price: 8 },
+            { name: "Glenfiddich 12", price: 8 },
             { name: "Cardhu", price: 10 },
-            { name: "The Glenlivet 15", price: 10 },
-            { name: "Glenfiddich 15", price: 12 },
             { name: "The Dalmore", price: 14 },
             { name: "The Macallan 12", price: 15 },
             { name: "Lagavulin 16", price: 19 }
@@ -114,7 +112,6 @@ window.SWING_MENU = {
             { name: "Absolut", price: 3.5 },
             { name: "Finlandia", price: 3.5 },
             { name: "Ostoya", price: 5 },
-            { name: "Reyka", price: 5 },
             { name: "Grey Goose", price: 6 }
           ]
         }
